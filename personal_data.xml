@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<PersonalInformation>
+    <PersonInfo1>
+        <Name>Geocelio S. Tamayo</Name>
+        <Age>20</Age>
+        <BirthDate>December 16, 2003</BirthDate>
+        <Height>Unknown</Height>
+        <Address>Tanza, Cavite</Address>
+        <PhoneNumber>09223433443</PhoneNumber>
+        <EmailAddress>tc.geocelio.tamayo@cvsu.edu.ph</EmailAddress>
+        <Religion>Roman Catholic</Religion>
+    </PersonInfo1>
+    <PersonInfo2>
+        <Name>Jhaymar</Name>
+        <Age>?</Age>
+        <BirthDate>?</BirthDate>
+        <Height>?</Height>
+        <Address>Cavite</Address>
+        <PhoneNumber>09?????????</PhoneNumber>
+        <EmailAddress>@cvsu.edu.ph</EmailAddress>
+        <Religion>?</Religion>
+    </PersonInfo2>
+</PersonalInformation>

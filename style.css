@@ -1,0 +1,121 @@
+PersonalInformation {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+PersonInfo1, PersonInfo2 {
+    display: block;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+PersonInfo1:hover, PersonInfo2:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+Name {
+    display: block;
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+Age, Birthdate, Height, Address, PhoneNumber, EmailAddress, Religion {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+Birthdate::before {
+    content: "🎂 Birthdate: ";
+}
+
+Height::before {
+    content: "📏 Height: ";
+}
+
+Address::before {
+    content: "🏠 Address: ";
+}
+
+PhoneNumber::before {
+    content: "📞 Phone Number: ";
+}
+
+EmailAddress::before {
+    content: "📧 Email Address: ";
+}
+
+Religion::before {
+    content: "🛐 Religion: ";
+}
+
+PersonInfo1::before, PersonInfo2::before {
+    content: "👤";
+    font-size: 2em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+PersonalInformation::before {
+    content: "📋 Personal Data";
+    display: block;
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    PersonalInformation {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    PersonInfo1, PersonInfo2 {
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    Name {
+        font-size: 1.3em;
+    }
+
+    Age, Birthdate, Height, Address, PhoneNumber, Email, Religion {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    PersonalInformation {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    PersonInfo1, PersonInfo2 {
+        margin: 3px 0;
+        padding: 8px;
+    }
+
+    Name {
+        font-size: 1.1em;
+    }
+
+    Age, Birthdate, Height, Address, PhoneNumber, Email, Religion {
+        font-size: 0.9em;
+    }
+}
