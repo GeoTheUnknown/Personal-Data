@@ -1,2 +1,2 @@
 # Personal-Data
-Personal Data using XML with CSS
+Personal Data using HTML or XML with CSS
