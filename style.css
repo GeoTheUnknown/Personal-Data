@@ -44,11 +44,11 @@ Age, BirthDate, Address, PhoneNumber, EmailAddress, Religion {
 }
 
 Age::before {
-    content: "⏳ Age: ";
+    content: "🎂 Age: ";
 }
 
 BirthDate::before {
-    content: "🎂 Birthdate: ";
+    content: "📅 Birthdate: ";
 }
 
 Address::before {
