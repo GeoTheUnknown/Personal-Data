@@ -6,17 +6,17 @@
         <Age>20</Age>
         <BirthDate>December 16, 2003</BirthDate>
         <Address>Tanza, Cavite</Address>
-        <PhoneNumber>09223433443</PhoneNumber>
+        <PhoneNumber>09666539718</PhoneNumber>
         <EmailAddress>tc.geocelio.tamayo@cvsu.edu.ph</EmailAddress>
-        <Religion>Roman Catholic</Religion>
+        <Religion>Catholic</Religion>
     </PersonInfo1>
     <PersonInfo2>
-        <Name>Jhaymar</Name>
-        <Age>?</Age>
-        <BirthDate>?</BirthDate>
-        <Address>Cavite</Address>
-        <PhoneNumber>09?????????</PhoneNumber>
-        <EmailAddress>@cvsu.edu.ph</EmailAddress>
-        <Religion>?</Religion>
+        <Name>Jaymar R. Ingalla</Name>
+        <Age>23</Age>
+        <BirthDate>July 12 , 2001</BirthDate>
+        <Address>Tanza, Cavite</Address>
+        <PhoneNumber>09918688561</PhoneNumber>
+        <EmailAddress>tc.jaymar.ingalla@cvsu.edu.ph</EmailAddress>
+        <Religion>Catholic</Religion>
     </PersonInfo2>
 </PersonalInformation>
